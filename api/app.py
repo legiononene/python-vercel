@@ -76,6 +76,6 @@ async def process_fingerprint(file: UploadFile = File(...)):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app)
+    uvicorn.run(app, port=80, host="0.0.0.0")
 # Run the server using uvicorn (for testing purposes)
 # You can run the app with: uvicorn your_filename:app --reload
