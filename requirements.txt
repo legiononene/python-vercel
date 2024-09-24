@@ -3,3 +3,4 @@ fingerprint-enhancer
 tqdm
 fastapi[standard]
 uvicorn
+numpy
