@@ -1,0 +1,5 @@
+opencv-python
+fingerprint-enhancer
+tqdm
+fastapi[standard]
+uvicorn
